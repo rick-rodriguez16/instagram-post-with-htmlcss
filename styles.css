@@ -8,7 +8,7 @@ body {
 .frame {
     background-color: black;
     height: 1200px;
-    width: 1300px;
+    width: 1250px;
     margin: 25px auto;
     position: relative;
 }
@@ -16,7 +16,7 @@ body {
 .post {
     background-color: white;
     color: black;
-    height: 1000px;
+    height: 975px;
     width: 730px;
     position: absolute;
     margin: 100px auto;
@@ -104,16 +104,14 @@ body {
     float: right;
 }
 
-.post-body-text {
-    border: orange dashed;
-}
-
 .post-body-text > p:first-child{
-    border: red dashed;
     margin: 0;
+    padding: 10px 0 10px 20px;
+    font-size: x-large;
 }
 
 .post-body-text > p:nth-child(2) {
-    border: purple dashed;
     margin: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: x-large;
 }
