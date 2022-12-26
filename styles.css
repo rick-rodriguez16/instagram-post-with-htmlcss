@@ -8,8 +8,8 @@ body {
 .frame {
     background-color: black;
     height: 1200px;
-    width: 1250px;
-    margin: 50px auto;
+    width: 1300px;
+    margin: 25px auto;
     position: relative;
 }
 
@@ -17,7 +17,7 @@ body {
     background-color: white;
     color: black;
     height: 1000px;
-    width: 750px;
+    width: 730px;
     position: absolute;
     margin: 100px auto;
     left: 0;
@@ -25,9 +25,95 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* START post-header info */ 
+
 .post-header {
-    height: 20px;
+    height: 95px;
 }
 
+.post-header img {
+    height: 38px;
+    margin: 27px 0 0 19px;
+    float: left;
+}
 
+.post-header-title {
+    height: 90px;
+    width: 595px;
+    margin: 0;
+    float: left;
+}
 
+.post-header-title > p:first-child {
+    font-weight: bold;
+    font-size: 23px;
+    margin: 20px 0 0 10px;
+}
+
+.post-header-title > p:nth-child(2) {
+    font-size: 22px;
+    margin: 0 0 0 10px;
+
+}
+
+.post-header-menu-button {
+    height: 90px;
+    width: 60px;
+    margin: 0;
+    float: left;
+}
+
+.post-header-menu-button > img {
+    height: 50px;
+    margin: 20px 0 0 5px;
+}
+
+/* END post-header info */
+/* START post-image info */
+
+.post-image > img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/* END post-image info */
+/* START post-body info */
+
+.post-body-icons {
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+
+.post-body-icons-left {
+    width: 55%;
+    padding-left: 10px;
+    float: left;
+}
+
+.fa-heart, .fa-comment, .fa-paper-plane {
+    padding-left: 15px;
+}
+
+.post-body-icons-right {
+    width: 40%;
+    float: left;
+}
+
+.fa-bookmark {
+    float: right;
+}
+
+.post-body-text {
+    border: orange dashed;
+}
+
+.post-body-text > p:first-child{
+    border: red dashed;
+    margin: 0;
+}
+
+.post-body-text > p:nth-child(2) {
+    border: purple dashed;
+    margin: 0;
+}
